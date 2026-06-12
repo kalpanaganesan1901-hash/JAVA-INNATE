@@ -1,0 +1,38 @@
+//Display Vowels Count
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the String: ");
+        String x=sc.nextLine();
+       String y=x.toLowerCase();
+       int count=0;
+       int n=y.length();
+       char[] b={'a','e','i','o','u'};
+       char[] arr=y.toCharArray();
+       for(char c: arr){
+           System.out.println(c);
+       }
+       System.out.println("Vowels are: ");
+       for(int i=0;i<n;i++){
+           for(int j=0;j<5;j++){
+               if(y.charAt(i) == b[j]){
+                   count=count+1;
+               }
+           }
+       }
+       System.out.println(count);
+    }
+}
+
+Enter the String: Kalpana
+k
+a
+l
+p
+a
+n
+a
+Vowels are: 
+3
