@@ -23,3 +23,7 @@ public class Main {
         sc.close();
     }
 }
+
+Enter userid: admin@gmail.com
+Enter password: admin@123
+welcome to home screen
