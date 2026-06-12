@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        HashMap<Integer,String> a=new HashMap<>();
+        a.put(1,"Kalpana");
+         a.put(2,"Ganesan");
+         System.out.println(a);
+         a.remove(2);
+         System.out.println(a);
+    }
+}
+
+{1=Kalpana, 2=Ganesan}
+{1=Kalpana}
